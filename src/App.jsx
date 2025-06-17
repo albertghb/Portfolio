@@ -248,7 +248,7 @@ const Portfolio = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Hi, I'm <span className={`bg-gradient-to-r ${
                 darkMode ? 'from-purple-400 to-blue-400' : 'from-blue-600 to-purple-600'
-              } bg-clip-text text-transparent`}>Albert Irasubiza</span>
+              } bg-clip-text text-transparent`}>Rutwe mudenge</span>
             </h1>
             <p className={`text-xl md:text-2xl mb-8 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
               Full Stack Developer & UI/UX Designer
