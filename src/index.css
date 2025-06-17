@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Add these styles to handle particle canvas */
+#tsparticles {
+  position: fixed !important;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+/* Optional: Custom styles for Toastify */
+.Toastify__toast {
+  border-radius: 0.5rem;
+  font-family: inherit;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(to right, #3f5983, #7903e7);
+}
+
+.dark .Toastify__toast {
+  background: #1f2937;
+  color: white;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
